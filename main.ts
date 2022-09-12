@@ -1,5 +1,5 @@
-//% color="#af1015" weight=200 block="Idea Kits:Music"
-namespace IdeaKitsMusic {
+//% color="#af1015" weight=200 block="IDEA KIT: Music"
+namespace IdeaKitMusic {
   let detection = 900;
   let soundLoop = 10;
   let onTouchLoop = 10;
@@ -169,8 +169,8 @@ namespace IdeaKitsMusic {
     return onTouchLoop < 10 ? true : false;
   }
 
-  //% block="read %pin"
-  export function read(pin: AnalogPin): number {
+  //% block="analog read %pin"
+  export function analogRead(pin: AnalogPin): number {
     return pins.analogReadPin(pin);
   }
 
